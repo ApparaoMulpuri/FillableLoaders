@@ -349,7 +349,7 @@ open class FillableLoader: UIView, CAAnimationDelegate {
     }
 
     internal func randomAngle() -> Double {
-        return M_PI_4/(Double(arc4random_uniform(16)) + 8)
+        return (Double.pi / 4)/(Double(arc4random_uniform(16)) + 8)
     }
 
 
